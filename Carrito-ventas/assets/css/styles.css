@@ -1,0 +1,58 @@
+#listado-prendas img {
+    height: 130px;
+}
+
+button.cantidades {
+    width: 50px;
+    margin: 3px;
+}
+
+button.cambiar {
+    width: 30px;
+    margin: 3px;
+}
+
+input.dimension {
+    width: 30%;
+    margin-right: 5px;
+}
+
+span.monto{
+    margin-left: 15px;
+    color: #2b05d4;
+}
+
+
+/*css para hoja flotante llamada informe*/
+#informe-compra {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+#informe-compra h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#informe-compra table {
+    width: 100%;
+}
+
+#informe-compra .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
